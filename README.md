@@ -1,7 +1,7 @@
 ## MNTextBox
 > 封装的可用于提交文本的文本弹出框
 
-#### 特色：
+#### 特点：
 - 使用继承给UITextView封装PlaceHolder
 - 使用delegate处理传值、关闭响应等操作
 - 使用UIAnimatetion优化弹出动画的流畅、自然
