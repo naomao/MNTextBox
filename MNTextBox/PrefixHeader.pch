@@ -1,0 +1,33 @@
+//
+//  PrefixHeader.pch
+//  TextboxDemo
+//
+//  Created by 毛闹 on 2017/8/10.
+//  Copyright © 2017年 毛闹. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "SDAutoLayout.h"
+
+/*SIZE*/
+#define KWIDTH  [UIScreen mainScreen].bounds.size.width
+#define KHEIGHT  [UIScreen mainScreen].bounds.size.height
+// 分割线
+#define SEPARATOR_LINE_HEIGHT (1 / [UIScreen mainScreen].scale)
+
+/*COLOR*/
+#define BG UIColorARGB(1,241,242,247)
+#define PRIMARY_COLOR UIColorARGB(1,48,143,217)
+/**内容tittle颜色 #333333 */
+#define CellTitleColor [UIColor colorWithRed:51/255.0 green:51/255.0 blue:51/255.0 alpha:1]
+//内容中间颜色 #666666
+#define CellHalfColor [UIColor colorWithRed:102/255.0 green:102/255.0 blue:102/255.0 alpha:1]
+//内容detail颜色 #9999999
+#define CellDetailColor [UIColor colorWithRed:153/255.0 green:153/255.0 blue:153/255.0 alpha:1]
+#define SEPARATOR_LINE_COLOR [UIColor colorWithRed:221/255.0 green:221/255.0 blue:221/255.0 alpha:1]
+
+
+#define UIColorARGB(a,r,g,b) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:a]
+#endif /* PrefixHeader_pch */

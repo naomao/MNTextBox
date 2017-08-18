@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A13E90BC6F51318BC7BB29A /* libPods-MNTextBox.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 99A256433AC5C9584C47B728 /* libPods-MNTextBox.a */; };
+		FADD13FE1F45C05500FC35E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FADD13FD1F45C05500FC35E2 /* main.m */; };
+		FADD14011F45C05500FC35E2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FADD14001F45C05500FC35E2 /* AppDelegate.m */; };
+		FADD14071F45C05500FC35E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FADD14051F45C05500FC35E2 /* Main.storyboard */; };
+		FADD14091F45C05500FC35E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FADD14081F45C05500FC35E2 /* Assets.xcassets */; };
+		FADD140C1F45C05500FC35E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FADD140A1F45C05500FC35E2 /* LaunchScreen.storyboard */; };
+		FADD141C1F45C09A00FC35E2 /* MaoTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = FADD14151F45C09A00FC35E2 /* MaoTextView.m */; };
+		FADD141D1F45C09A00FC35E2 /* TextboxView.m in Sources */ = {isa = PBXBuildFile; fileRef = FADD14181F45C09A00FC35E2 /* TextboxView.m */; };
+		FADD141E1F45C09A00FC35E2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FADD141B1F45C09A00FC35E2 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8BEC3BC6C58BEA34B7FEA269 /* Pods-MNTextBox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MNTextBox.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MNTextBox/Pods-MNTextBox.debug.xcconfig"; sourceTree = "<group>"; };
+		96CEFE8FE396727E06B95E33 /* Pods-MNTextBox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MNTextBox.release.xcconfig"; path = "Pods/Target Support Files/Pods-MNTextBox/Pods-MNTextBox.release.xcconfig"; sourceTree = "<group>"; };
+		99A256433AC5C9584C47B728 /* libPods-MNTextBox.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MNTextBox.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FADD13F91F45C05500FC35E2 /* MNTextBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MNTextBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FADD13FD1F45C05500FC35E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FADD13FF1F45C05500FC35E2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FADD14001F45C05500FC35E2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FADD14061F45C05500FC35E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FADD14081F45C05500FC35E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FADD140B1F45C05500FC35E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FADD140D1F45C05500FC35E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FADD14141F45C09A00FC35E2 /* MaoTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaoTextView.h; sourceTree = "<group>"; };
+		FADD14151F45C09A00FC35E2 /* MaoTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaoTextView.m; sourceTree = "<group>"; };
+		FADD14171F45C09A00FC35E2 /* TextboxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextboxView.h; sourceTree = "<group>"; };
+		FADD14181F45C09A00FC35E2 /* TextboxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextboxView.m; sourceTree = "<group>"; };
+		FADD141A1F45C09A00FC35E2 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FADD141B1F45C09A00FC35E2 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FADD141F1F45C0A700FC35E2 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FADD13F61F45C05500FC35E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A13E90BC6F51318BC7BB29A /* libPods-MNTextBox.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54D08799073830B2BF624139 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8BEC3BC6C58BEA34B7FEA269 /* Pods-MNTextBox.debug.xcconfig */,
+				96CEFE8FE396727E06B95E33 /* Pods-MNTextBox.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6D67A5FD0E136F5DA9F84FB1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				99A256433AC5C9584C47B728 /* libPods-MNTextBox.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FADD13F01F45C05500FC35E2 = {
+			isa = PBXGroup;
+			children = (
+				FADD13FB1F45C05500FC35E2 /* MNTextBox */,
+				FADD13FA1F45C05500FC35E2 /* Products */,
+				54D08799073830B2BF624139 /* Pods */,
+				6D67A5FD0E136F5DA9F84FB1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FADD13FA1F45C05500FC35E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FADD13F91F45C05500FC35E2 /* MNTextBox.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FADD13FB1F45C05500FC35E2 /* MNTextBox */ = {
+			isa = PBXGroup;
+			children = (
+				FADD14131F45C09A00FC35E2 /* Tool */,
+				FADD14161F45C09A00FC35E2 /* View */,
+				FADD14191F45C09A00FC35E2 /* ViewController */,
+				FADD13FF1F45C05500FC35E2 /* AppDelegate.h */,
+				FADD14001F45C05500FC35E2 /* AppDelegate.m */,
+				FADD14051F45C05500FC35E2 /* Main.storyboard */,
+				FADD14081F45C05500FC35E2 /* Assets.xcassets */,
+				FADD140A1F45C05500FC35E2 /* LaunchScreen.storyboard */,
+				FADD140D1F45C05500FC35E2 /* Info.plist */,
+				FADD13FC1F45C05500FC35E2 /* Supporting Files */,
+			);
+			path = MNTextBox;
+			sourceTree = "<group>";
+		};
+		FADD13FC1F45C05500FC35E2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FADD141F1F45C0A700FC35E2 /* PrefixHeader.pch */,
+				FADD13FD1F45C05500FC35E2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FADD14131F45C09A00FC35E2 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				FADD14141F45C09A00FC35E2 /* MaoTextView.h */,
+				FADD14151F45C09A00FC35E2 /* MaoTextView.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		FADD14161F45C09A00FC35E2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FADD14171F45C09A00FC35E2 /* TextboxView.h */,
+				FADD14181F45C09A00FC35E2 /* TextboxView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FADD14191F45C09A00FC35E2 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FADD141A1F45C09A00FC35E2 /* ViewController.h */,
+				FADD141B1F45C09A00FC35E2 /* ViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FADD13F81F45C05500FC35E2 /* MNTextBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FADD14101F45C05500FC35E2 /* Build configuration list for PBXNativeTarget "MNTextBox" */;
+			buildPhases = (
+				9DAB2ED261C484862EC7D5D4 /* [CP] Check Pods Manifest.lock */,
+				FADD13F51F45C05500FC35E2 /* Sources */,
+				FADD13F61F45C05500FC35E2 /* Frameworks */,
+				FADD13F71F45C05500FC35E2 /* Resources */,
+				3033F1FF6B1FDAFBA9A71285 /* [CP] Embed Pods Frameworks */,
+				D25F38729BDA32D81A7C9EB7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MNTextBox;
+			productName = MNTextBox;
+			productReference = FADD13F91F45C05500FC35E2 /* MNTextBox.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FADD13F11F45C05500FC35E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = MacBook;
+				TargetAttributes = {
+					FADD13F81F45C05500FC35E2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 43DRDSQ4SK;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FADD13F41F45C05500FC35E2 /* Build configuration list for PBXProject "MNTextBox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FADD13F01F45C05500FC35E2;
+			productRefGroup = FADD13FA1F45C05500FC35E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FADD13F81F45C05500FC35E2 /* MNTextBox */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FADD13F71F45C05500FC35E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADD140C1F45C05500FC35E2 /* LaunchScreen.storyboard in Resources */,
+				FADD14091F45C05500FC35E2 /* Assets.xcassets in Resources */,
+				FADD14071F45C05500FC35E2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3033F1FF6B1FDAFBA9A71285 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MNTextBox/Pods-MNTextBox-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DAB2ED261C484862EC7D5D4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MNTextBox-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D25F38729BDA32D81A7C9EB7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MNTextBox/Pods-MNTextBox-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FADD13F51F45C05500FC35E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADD14011F45C05500FC35E2 /* AppDelegate.m in Sources */,
+				FADD141D1F45C09A00FC35E2 /* TextboxView.m in Sources */,
+				FADD141C1F45C09A00FC35E2 /* MaoTextView.m in Sources */,
+				FADD13FE1F45C05500FC35E2 /* main.m in Sources */,
+				FADD141E1F45C09A00FC35E2 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FADD14051F45C05500FC35E2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FADD14061F45C05500FC35E2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FADD140A1F45C05500FC35E2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FADD140B1F45C05500FC35E2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FADD140E1F45C05500FC35E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FADD140F1F45C05500FC35E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FADD14111F45C05500FC35E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BEC3BC6C58BEA34B7FEA269 /* Pods-MNTextBox.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 43DRDSQ4SK;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MNTextBox/PrefixHeader.pch";
+				INFOPLIST_FILE = MNTextBox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maonao.MNTextBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FADD14121F45C05500FC35E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96CEFE8FE396727E06B95E33 /* Pods-MNTextBox.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 43DRDSQ4SK;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MNTextBox/PrefixHeader.pch";
+				INFOPLIST_FILE = MNTextBox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maonao.MNTextBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FADD13F41F45C05500FC35E2 /* Build configuration list for PBXProject "MNTextBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FADD140E1F45C05500FC35E2 /* Debug */,
+				FADD140F1F45C05500FC35E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FADD14101F45C05500FC35E2 /* Build configuration list for PBXNativeTarget "MNTextBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FADD14111F45C05500FC35E2 /* Debug */,
+				FADD14121F45C05500FC35E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FADD13F11F45C05500FC35E2 /* Project object */;
+}
