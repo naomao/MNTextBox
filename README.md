@@ -8,4 +8,4 @@
 - 对文本框做了很为严密的文本长度限制
 
 #### 效果图：
-![MNTextBox效果图.gif](http://upload-images.jianshu.io/upload_images/796472-81924533665e034f.gif?imageMogr2/auto-orient/strip)
+![MNTextBox效果图.gif](https://github.com/naomao/MNTextBox/效果图.gif)
