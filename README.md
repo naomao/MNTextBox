@@ -8,4 +8,4 @@
 - 对文本框做了很为严密的文本长度限制
 
 #### 效果图：
-![MNTextBox效果图.gif](https://github.com/naomao/MNTextBox/效果图.gif)
+![MNTextBox效果图.gif](https://github.com/naomao/MNTextBox/blob/master/%E6%95%88%E6%9E%9C%E5%9B%BE.gif)
